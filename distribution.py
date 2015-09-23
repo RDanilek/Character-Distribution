@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Roger Danilek
-Credit: Adam Pikielny
+Credit: Adam Pikielny, Stack Overflow
 
 Assignment:
 
