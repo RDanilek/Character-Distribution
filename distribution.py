@@ -40,7 +40,7 @@ Notice about this example:
 #if (a.lower())
 #print("The distribution of characters in "+ a +" is: ")
 for i in ['a', 'b', 'c']:
-    print i
+    print(i)
 
 
 
