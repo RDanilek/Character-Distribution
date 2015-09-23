@@ -36,7 +36,16 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-
-a = input("Please enter a string of text (the bigger the better): ")
-print(a.lower())
+#a = input("Please enter a string of text (the bigger the better): ")
+#if (a.lower())
 #print("The distribution of characters in "+ a +" is: ")
+for i in ['a', 'b', 'c']
+    print i
+
+
+
+
+
+
+
+
