@@ -38,7 +38,7 @@ Notice about this example:
 """
 import string
 a = input("Please enter a string of text (the bigger the better): ")
-out = s.translate(string.maketrans("",""), string.punctuation)
+out = a.translate(string.maketrans("",""), string.punctuation)
 
 #(a.lower())
 #print("The distribution of characters in "+ a +" is: ")
