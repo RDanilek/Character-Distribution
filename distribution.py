@@ -39,7 +39,7 @@ Notice about this example:
 #a = input("Please enter a string of text (the bigger the better): ")
 #if (a.lower())
 #print("The distribution of characters in "+ a +" is: ")
-for i in ['a', 'b', 'c']
+for i in ['a', 'b', 'c']:
     print i
 
 
