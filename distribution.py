@@ -39,8 +39,8 @@ Notice about this example:
 import string
 string.ascii_lowercase
 a = input("Please enter a string of text (the bigger the better): ")
-a.split()
-a.sort()
+print(a.split())
+
 
 #print("The distribution of characters in "+ a +" is: ")
 
