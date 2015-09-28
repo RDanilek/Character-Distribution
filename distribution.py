@@ -38,8 +38,11 @@ Notice about this example:
 """
 import string
 string.ascii_lowercase
+
 a = input("Please enter a string of text (the bigger the better): ")
+
 print(a.split().sort())
+zip(a,string)
 
 
 #print("The distribution of characters in "+ a +" is: ")
