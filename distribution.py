@@ -37,7 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-string.ascii_lowercase
+string.ascii_lowercase.split()
 
 a = input("Please enter a string of text (the bigger the better): ")
 
