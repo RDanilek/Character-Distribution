@@ -37,13 +37,13 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-string.ascii_lowercase.split()
+alpha = string.ascii_lowercase
 
 a = input("Please enter a string of text (the bigger the better): ")
 
 print(a.split().sort())
-zip(a,string)
-
+alpha.split()
+zip(alpha,a)
 
 #print("The distribution of characters in "+ a +" is: ")
 
