@@ -43,7 +43,7 @@ a = input("Please enter a string of text (the bigger the better): ")
 
 print(a.split().sort())
 alpha.split()
-zip(alpha,a)
+print(zip(alpha,a))
 
 #print("The distribution of characters in "+ a +" is: ")
 
