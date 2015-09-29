@@ -44,8 +44,7 @@ a = input("Please enter a string of text (the bigger the better): ")
 counts = []
 for i in list(alpha):
     counts.append(a.count(i)).sort()
-
-#zip(counts,list(alpha))
+zip(counts,list(alpha))
 print(counts)
 #print("The distribution of characters in "+ a +" is: ")
 
