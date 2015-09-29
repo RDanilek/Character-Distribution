@@ -41,10 +41,11 @@ alpha = string.ascii_lowercase
 
 a = input("Please enter a string of text (the bigger the better): ")
 
-#print(a.split().sort())
-alpha.split()
-print(list(zip(a,alpha)))
 
+alpha.split()
+#print(list(zip(a,alpha)))
+for i in alpha:
+    a.count(i)
 #print("The distribution of characters in "+ a +" is: ")
 
 
