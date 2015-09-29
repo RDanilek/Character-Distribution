@@ -42,10 +42,9 @@ alpha = string.ascii_lowercase
 a = input("Please enter a string of text (the bigger the better): ")
 
 counts = []
-print(list(alpha))
-for i in h:
+for i in list(alpha):
     counts.append(a.count(i))
-print(h)
+
 print(counts)
 #print("The distribution of characters in "+ a +" is: ")
 
