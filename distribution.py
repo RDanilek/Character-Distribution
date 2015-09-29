@@ -42,8 +42,7 @@ alpha = string.ascii_lowercase
 a = input("Please enter a string of text (the bigger the better): ")
 
 counts = []
-h = alpha.split(,)
-#print(list(zip(a,alpha)))
+print(list(alpha))
 for i in h:
     counts.append(a.count(i))
 print(h)
