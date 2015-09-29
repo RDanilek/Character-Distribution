@@ -45,8 +45,7 @@ counts = []
 for i in list(a):
     counts.append(b.count(i))
 zipper = list(zip(counts,a))
-print(zipper)
-
+print(zipper.sort())
 #print("The distribution of characters in "+ a +" is: ")
 
 
