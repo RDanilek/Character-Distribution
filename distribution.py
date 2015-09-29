@@ -45,9 +45,10 @@ counts = []
 for i in list(a):
     counts.append(b.count(i))
 zipper = list(zip(counts,a))
-for h in zipper:
-    print(h[0]*h[1])
-len(b)
+if h[0]!=0:
+    for h in zipper:
+        print(h[0]*h[1])
+
 #print("The distribution of characters in "+ a +" is: ")
 
 
