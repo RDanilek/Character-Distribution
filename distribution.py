@@ -37,14 +37,14 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-alpha = string.ascii_lowercase
+a = string.ascii_lowercase
 
-a = input("Please enter a string of text (the bigger the better): ")
+b = input("Please enter a string of text (the bigger the better): ")
 
 counts = []
-for i in list(alpha):
-    counts.append(a.count(i)).sort()
-zipper = list(zip(counts,alpha))
+for i in list(a):
+    counts.append(b.count(i)).sort()
+zipper = list(zip(counts,a))
 print(zipper)
 
 #print("The distribution of characters in "+ a +" is: ")
