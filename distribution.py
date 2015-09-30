@@ -47,7 +47,7 @@ counts = []
 for i in list(a):
     counts.append(b.count(i))
 zipper = list(zip(counts,a))
-#goodzip = zipper.sort()
+goodzip = zipper.sort()
 for h in zipper:
     if h[0]!=0:
         print(h[0]*h[1])
