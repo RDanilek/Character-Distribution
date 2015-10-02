@@ -44,7 +44,7 @@ b = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "'+ b +'" is: ')
 
 counts = []
-a.lower()
+b.lower()
 for i in list(a):
     counts.append(b.count(i))
 zipper = list(zip(counts,a))
