@@ -41,7 +41,7 @@ a = string.ascii_lowercase
 
 b = input("Please enter a string of text (the bigger the better): ")
 
-print("The distribution of characters in '"+ b +"' is: ")
+print('The distribution of characters in "'+ b +'" is: ')
 
 counts = []
 for i in list(a):
