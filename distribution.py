@@ -47,8 +47,9 @@ counts = []
 for i in list(a):
     counts.append(b.count(i))
 zipper = list(zip(counts,a))
-def roger(x):
-    charval=ord(x[1])
+for h in zipper:
+    def roger(h):
+        charval=ord(h[1])
 zipper.sort(key=roger)
 for h in zipper:
     if h[0]!=0:
