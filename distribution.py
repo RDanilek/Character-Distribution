@@ -45,7 +45,6 @@ print('The distribution of characters in "'+ b +'" is: ')
 
 counts = []
 c= b.lower()
-print(c)
 for i in list(a):
     counts.append(c.count(i))
 zipper = list(zip(counts,a))
