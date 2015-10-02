@@ -47,7 +47,7 @@ counts = []
 c= b.lower()
 print(c)
 for i in list(a):
-    counts.append(b.count(i))
+    counts.append(c.count(i))
 zipper = list(zip(counts,a))
 zipper.sort(key = lambda f: (-f[0],f[1]))
 for h in zipper:
